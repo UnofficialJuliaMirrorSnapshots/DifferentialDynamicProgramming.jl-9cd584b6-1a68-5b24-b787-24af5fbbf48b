@@ -1,8 +1,5 @@
 # DifferentialDynamicProgramming
 
-[![DifferentialDynamicProgramming](http://pkg.julialang.org/badges/DifferentialDynamicProgramming_0.4.svg)](http://pkg.julialang.org/?pkg=DifferentialDynamicProgramming)
-[![DifferentialDynamicProgramming](http://pkg.julialang.org/badges/DifferentialDynamicProgramming_0.5.svg)](http://pkg.julialang.org/?pkg=DifferentialDynamicProgramming)
-[![DifferentialDynamicProgramming](http://pkg.julialang.org/badges/DifferentialDynamicProgramming_0.6.svg)](http://pkg.julialang.org/?pkg=DifferentialDynamicProgramming)
 [![Build Status](https://travis-ci.org/baggepinnen/DifferentialDynamicProgramming.jl.svg?branch=master)](https://travis-ci.org/baggepinnen/DifferentialDynamicProgramming.jl)
 
 [![Coverage Status](https://coveralls.io/repos/github/baggepinnen/DifferentialDynamicProgramming.jl/badge.png?branch=master)](https://coveralls.io/github/baggepinnen/DifferentialDynamicProgramming.jl?branch=master)
@@ -10,12 +7,7 @@
 ## Installation
 The package is registered and can be added with  
 `] add DifferentialDynamicProgramming`  
-To get the latest updates, install using  
-```
-] add https://github.com/baggepinnen/LinearTimeVaryingModelsBase.jl
-add DifferentialDynamicProgramming#master
-```
-
+The latest version is formally compatible with Julia v1.1+ (but probably works well for julia v1.0 as well if you `dev` it).
 
 ## Demo functions
 The following demo functions are provided
@@ -124,4 +116,3 @@ The code above was extended with KL-divergence constrained optimization for the 
   url          = {https://lup.lub.lu.se/search/publication/ffb8dc85-ce12-4f75-8f2b-0881e492f6c0},
 }
 ```
-
